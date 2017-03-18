@@ -1,6 +1,6 @@
 # Strengthening Passwords to Defend Against John
 
-In this exercise we will obtain the password of an unsuspecting user by "cracking" the hashed copy of that user's password. Then we will use a password manager to strengthen our own passwords in order to protect ourselves against the same sort of attacks. Our goal is to understand why and how using [password management software](https://en.wikipedia.org/wiki/Password_manager) makes having a digital life both safer and easier at the same time.
+In this exercise we will obtain the password of an unsuspecting user by "cracking" by "cracking" what is known as the "hashed copy" (explained below) of that user's password. Then we will use a tool called a "password manager" to strengthen our own passwords in order to protect ourselves against the same sort of attacks. Our goal is to understand why and how using [password management software](https://en.wikipedia.org/wiki/Password_manager) makes having a digital life both safer and easier at the same time.
 
 In other words, you will perform a *[password cracking](https://en.wikipedia.org/wiki/Password_cracking) attack* and learn how to stop password crackers from cracking your own passwords.
 
@@ -183,7 +183,7 @@ Now, let's practice all this.
 **Do this:**
 
 1. Download the [`sanitycheck.password.txt`](sanitycheck.password.txt?raw=true) and [`sanitycheck.wordlist.txt`](sanitycheck.wordlist.txt?raw=true) files and save them in or move them to JtR's `run` folder.
-1. Open a command prompt or terminal window and use the `cd` command to navigate to John the Ripper's `run` folder.
+1. Open a command prompt or terminal window and use the `cd` command (explained above) to navigate to John the Ripper's `run` folder.
 1. Invoke `john` as shown above to compare each guess in the wordlist file to the hashed value in the password file.
 
 ```sh
